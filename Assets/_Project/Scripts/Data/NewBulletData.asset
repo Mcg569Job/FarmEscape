@@ -1,0 +1,297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a90f3fb8e3f93bb4e9556b32c00b206d, type: 3}
+  m_Name: NewBulletData
+  m_EditorClassIdentifier: 
+  Particle: {fileID: 4465513973835184068, guid: dfc635ae4e6f8f54e8675539166d6f29,
+    type: 3}
+  bullets:
+  - Name: apple
+    Id: 0
+    Prefab: {fileID: 9086831145830295084, guid: a62521926a1b77d4085c8053bfce2c3e,
+      type: 3}
+    Gradient:
+      serializedVersion: 2
+      key0: {r: 0.9622642, g: 0.5764507, b: 0.5764507, a: 1}
+      key1: {r: 1, g: 0, b: 0, a: 1}
+      key2: {r: 1, g: 0.33490568, b: 0.5028331, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 25829
+      ctime2: 65535
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 3
+      m_NumAlphaKeys: 2
+    Color: {r: 0.8679245, g: 0, b: 0.09125666, a: 1}
+    Icon: {fileID: -8289304185452053511, guid: f2c1b054c89578e4c8fb0c60875a363e, type: 3}
+  - Name: avocado
+    Id: 1
+    Prefab: {fileID: 2925969464071040026, guid: 6bf96809691e3fe4a84894111ca65ebb,
+      type: 3}
+    Gradient:
+      serializedVersion: 2
+      key0: {r: 0.3382225, g: 1, b: 0, a: 1}
+      key1: {r: 0.94101304, g: 1, b: 0.19339621, a: 1}
+      key2: {r: 0.9388163, g: 1, b: 0.5707547, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 32189
+      ctime2: 65535
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 3
+      m_NumAlphaKeys: 2
+    Color: {r: 0.21900506, g: 1, b: 0.0047169924, a: 1}
+    Icon: {fileID: -8848160797809622262, guid: f2c1b054c89578e4c8fb0c60875a363e, type: 3}
+  - Name: pineapple
+    Id: 2
+    Prefab: {fileID: 2080075921078919481, guid: 319ad808a7ff5824899466822a0978ef,
+      type: 3}
+    Gradient:
+      serializedVersion: 2
+      key0: {r: 0.2830189, g: 0.16489387, b: 0.028034888, a: 1}
+      key1: {r: 1, g: 0.49459854, b: 0, a: 1}
+      key2: {r: 1, g: 0.90511477, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 16384
+      ctime2: 65535
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 3
+      m_NumAlphaKeys: 2
+    Color: {r: 1, g: 0.59563184, b: 0, a: 1}
+    Icon: {fileID: -3587702740040976504, guid: f2c1b054c89578e4c8fb0c60875a363e, type: 3}
+  - Name: watermelon
+    Id: 3
+    Prefab: {fileID: 5664916894322112012, guid: 57402e277485e9343b8db2a094d5bbba,
+      type: 3}
+    Gradient:
+      serializedVersion: 2
+      key0: {r: 0.21681976, g: 1, b: 0, a: 1}
+      key1: {r: 1, g: 0, b: 0.24509811, a: 1}
+      key2: {r: 1, g: 0.33490568, b: 0.48750317, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 17540
+      ctime2: 65535
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 3
+      m_NumAlphaKeys: 2
+    Color: {r: 0, g: 0.754717, b: 0.24321286, a: 1}
+    Icon: {fileID: 6522287191947028701, guid: f2c1b054c89578e4c8fb0c60875a363e, type: 3}
+  - Name: coconut
+    Id: 4
+    Prefab: {fileID: 8302256015772296287, guid: ba31c12bf5edecf4a95ac7a053e8ea66,
+      type: 3}
+    Gradient:
+      serializedVersion: 2
+      key0: {r: 0.1981132, g: 0.08563391, b: 0.028969381, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    Color: {r: 0.2735849, g: 0.13517933, b: 0.060653254, a: 1}
+    Icon: {fileID: -4406901998323505536, guid: f2c1b054c89578e4c8fb0c60875a363e, type: 3}
+  - Name: banana
+    Id: 5
+    Prefab: {fileID: 4435542815403934916, guid: a34082eb996ab4741a53de3bf621e1b5,
+      type: 3}
+    Gradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 0.85244375, b: 0, a: 1}
+      key1: {r: 1, g: 0.91264164, b: 0.4575472, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    Color: {r: 1, g: 0.9235792, b: 0, a: 1}
+    Icon: {fileID: 6390762999536974164, guid: f2c1b054c89578e4c8fb0c60875a363e, type: 3}
+  - Name: strawberry
+    Id: 6
+    Prefab: {fileID: 6056833626222680356, guid: ecf99dcb6305787418b3225cda8529f3,
+      type: 3}
+    Gradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 0, b: 0.20968103, a: 1}
+      key1: {r: 0.6320754, g: 0, b: 0.17726938, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    Color: {r: 0.9433962, g: 0, b: 0.19603495, a: 1}
+    Icon: {fileID: -8152934670063820054, guid: f2c1b054c89578e4c8fb0c60875a363e, type: 3}
+  - Name: orange
+    Id: 7
+    Prefab: {fileID: 7758916851521264392, guid: 40f6869844ac5124da1f9ac5278bad17,
+      type: 3}
+    Gradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 0.3409091, b: 0, a: 1}
+      key1: {r: 1, g: 0.7472322, b: 0, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    Color: {r: 1, g: 0.46976995, b: 0, a: 1}
+    Icon: {fileID: -2157658837786595878, guid: f2c1b054c89578e4c8fb0c60875a363e, type: 3}

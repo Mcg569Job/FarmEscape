@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d0c00ffdc4e1b641bf69dc8bbf8de34, type: 3}
+  m_Name: NewLevelData
+  m_EditorClassIdentifier: 
+  levels:
+  - PlayerCount: 5
+    PlayerSpeed: 1.7
+    EnemyCount: 1
+    EnemySpeed: 1.8
+    BulletCountInScene: 10
+  - PlayerCount: 5
+    PlayerSpeed: 2
+    EnemyCount: 2
+    EnemySpeed: 2.1
+    BulletCountInScene: 10
+  - PlayerCount: 6
+    PlayerSpeed: 2
+    EnemyCount: 3
+    EnemySpeed: 2.1
+    BulletCountInScene: 10
+  - PlayerCount: 8
+    PlayerSpeed: 2
+    EnemyCount: 3
+    EnemySpeed: 2.1
+    BulletCountInScene: 10
+  - PlayerCount: 6
+    PlayerSpeed: 2
+    EnemyCount: 4
+    EnemySpeed: 2.1
+    BulletCountInScene: 10
+  - PlayerCount: 7
+    PlayerSpeed: 2
+    EnemyCount: 3
+    EnemySpeed: 2.1
+    BulletCountInScene: 10
+  - PlayerCount: 8
+    PlayerSpeed: 2
+    EnemyCount: 5
+    EnemySpeed: 2.1
+    BulletCountInScene: 10
+  - PlayerCount: 5
+    PlayerSpeed: 2
+    EnemyCount: 2
+    EnemySpeed: 2.1
+    BulletCountInScene: 10
+  - PlayerCount: 5
+    PlayerSpeed: 2
+    EnemyCount: 2
+    EnemySpeed: 2
+    BulletCountInScene: 15
+  - PlayerCount: 5
+    PlayerSpeed: 2
+    EnemyCount: 3
+    EnemySpeed: 2.1
+    BulletCountInScene: 10
+  - PlayerCount: 5
+    PlayerSpeed: 2
+    EnemyCount: 3
+    EnemySpeed: 2.1
+    BulletCountInScene: 10
+  - PlayerCount: 10
+    PlayerSpeed: 2
+    EnemyCount: 6
+    EnemySpeed: 2.1
+    BulletCountInScene: 15
+  - PlayerCount: 6
+    PlayerSpeed: 2.2
+    EnemyCount: 4
+    EnemySpeed: 2.3
+    BulletCountInScene: 10
+  - PlayerCount: 5
+    PlayerSpeed: 2.2
+    EnemyCount: 3
+    EnemySpeed: 2.3
+    BulletCountInScene: 10
+  - PlayerCount: 6
+    PlayerSpeed: 2.2
+    EnemyCount: 4
+    EnemySpeed: 2.3
+    BulletCountInScene: 15
